@@ -1,0 +1,47 @@
+body{
+    color: white;
+    background-image: url("./image/bg-lightwool.png");
+}
+nav{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./image/bg-wool-dark.png");
+}
+nav img{
+    width: 20%;
+}
+nav #nav-logged{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+nav #nav-logged .hello-user{
+    font-size: 20px;
+}
+nav #nav-no-logged{
+    display: none;
+}
+.logged{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: none;
+}
+.no-logged{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: none;
+}

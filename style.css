@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Minecraft-Regular';
+    src:url('./font/Minecraft-Regular.ttf.woff') format('woff'),
+        url('./font/Minecraft-Regular.ttf.svg#Minecraft-Regular') format('svg'),
+        url('./font/Minecraft-Regular.ttf.eot'),
+        url('./font/Minecraft-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Minecraft-Regular';
+    background-image: url(./image/bg-wool-dark.png);
+}
+*{
+    font-family: "Minecraft-Regular";
+}
+
+button:hover{
+    cursor: pointer;
+}

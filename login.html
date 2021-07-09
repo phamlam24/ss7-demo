@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="input-form">
+        <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/3/32/Minecraft_logo.svg/1280px-Minecraft_logo.svg.png">
+        <div class="form">
+            <form id="form">
+                <h1>Log in</h1>
+                <div class="input-box username-input">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username">
+                    <div id="username-error" class="error"></div>
+                </div>
+                <div class="input-box password-input">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    <div id="password-error" class="error"></div>
+                </div>
+                <div class="input-box submit">
+                    <input type="submit" value="Submit">
+                </div>
+                <div class="login-success" id="login-success">
+                    <p>Login successful</p>
+                    <p>Redirecting to download page...</p>
+                </div>
+            </form>
+        </div>
+        
+        <div class="buttons">
+            <button onclick="clearStorage()">Clear storage</button>
+            <button onclick="toRegister()">Sign up</button>
+        </div>
+    </div>
+
+    
+    <script src="login.js"></script>
+    <script src="buttons.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.input-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 20px);
+    align-items: center;
+}
+    .input-form img{
+        width: 40vw;
+        margin-bottom: 30px;
+    }
+    .input-form .form{
+        background-image: url(image/bg-lightwool.png);
+        border-radius: 10px;
+    }
+    .input-form form{
+        width: 50vw;
+        height: 25em;
+        border: 2px dotted;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        .input-form form .input-box{
+            padding-top: 1em;
+        }
+        .input-form form .submit input{
+            padding: 0.5em;
+            border-radius: 5px;
+        }
+        .input-form form .submit input:hover{
+            cursor: pointer;
+        }
+        .input-form form .error{
+            display: none;
+            color: red;
+        }
+        .input-form form .login-success{
+            display: none;
+            color: hsl(120, 100%, 30%);
+        }
+    .input-form .buttons{
+        margin-top: 1em;
+    }
+        .input-form .buttons button{
+            padding: 0.5em;
+            border-radius: 5px;
+        }
